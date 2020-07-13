@@ -1,19 +1,16 @@
-## Simple REST API 
+## Pokémon Store REST API 
 This example demonstrates how to setup a RESTful Web Services to list, get, create, delete and update Pokémons.
-    list...... GET /pokemons/
-    get....... GET /pokemons/<pokemon_id>
-    create.... POST /pokemons/
-    delete.... DELETE /pokemons/<pokemon_id>
-    update.... PUT /pokemons/<pokemon_id>
+⋅⋅*list...... GET /pokemons/
+⋅⋅*get....... GET /pokemons/<pokemon_id>
+⋅⋅*create.... POST /pokemons/
+⋅⋅*delete.... DELETE /pokemons/<pokemon_id>
+⋅⋅*update.... PUT /pokemons/<pokemon_id>
 
 ## AWS Resources Used
-AWS Lambda: https://aws.amazon.com/lambda/
-AWS APIGateway: https://aws.amazon.com/api-gateway/
-AWS DynamoDB: https://aws.amazon.com/dynamodb/
-PokemonStoreCdkStack(app, "pokemon-store-cdk", env={'region': 'us-west-2'})
-
-## Strcture
-This web service has a seperate file for each Pokémon action.
+⋅⋅*AWS Lambda: https://aws.amazon.com/lambda/
+⋅⋅*AWS APIGateway: https://aws.amazon.com/api-gateway/
+⋅⋅*AWS DynamoDB: https://aws.amazon.com/dynamodb/
+⋅⋅*AWS CDK in Python: https://docs.aws.amazon.com/cdk/latest/guide/work-with-cdk-python.html
 
 ## Usage
 ### List all Pokémons 
